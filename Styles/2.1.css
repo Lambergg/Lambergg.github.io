@@ -1,0 +1,65 @@
+/* CSS Document */
+/*Шрифт текста в теге body*/
+body {font-family: Arial;}
+/*Размер шрифта, шрифт, насыщеннойсть шрифта  и выравнивание текста заголовка*/
+h1{
+	font-size: 32pt;
+	/*text-align: center;*/
+	font-family: Verdana;
+	font-weight: normal;
+}
+header{text-align: center;}
+main{text-align: justify;}
+footer{text-align: right;}
+/*Размер шрифта и выравниевание текста абзаца*/
+p{
+	font-size: 14pt !important;
+	/*text-align: justify;*/
+}
+/*
+Выравнивание картинки.
+Размер шрифта абзаца определённого класса. 
+Ширина картинки
+*/
+/*.picture{text-align: center;}*/
+p.greeting {font-size: 24pt;}
+.picture img {width: 67%;}
+
+/*address.place {text-align: right;}*/
+
+.advertising{margin-left: 30pt;}
+.abzac{font-size: 12pt;
+margin-top: 5pt;
+margin-bottom: 5pt;	
+}
+.bigger{font-size: 16pt;}
+
+/*Стиль для таблицы*/
+table.pricelist th, table.pricelist td{
+	border: grey thin solid;
+	padding: 4px;
+}
+
+table.catalog{
+	border-collapse: collapse;
+}
+
+table.catalog td{
+	border-top: black thin dotted;
+	border-bottom: black thin dotted;
+	padding: 10px;
+}
+
+table.catalog img{
+	width: 200px;
+}
+
+table.pricelist thead th {
+	color: white;
+	background-color: grey;
+}
+
+table.pricelist tfoot th{
+	font-style: italic;
+	text-align: right;
+}
